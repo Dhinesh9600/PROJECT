@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-Column Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #Bule;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        /* Adjust column width for larger screens */
+        @media screen and (min-width: 768px) {
+            .container {
+                flex-wrap: wrap;
+            }
+
+            .column {
+                flex-basis: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Three-Column Layout</h1>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <h2>Column 1</h2>
+            <p>Concepts of object-oriented programming concepts, which include encapsulation, inheritance, abstraction and polymorphism.
+            Good understanding of various data types with a few java language classes like System, String-Math and much more.</p>
+        </div>
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>Start reading books written by Java professionals and programmers giving a proper insight into the process of coding. Java learning steps might be crucial and critical, hence reading some great books written by experts, must be one of the basic things for you.</p>
+        </div>
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>Try some logic exercises like.Deciding a factorial of a number.Finding all prime numbers between 1 to 1000.Print the number in word.Try file input/output.Read a file and display its content right on the console etc...</p>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        /* Basic form styling (you can customize this further) */
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label, input, select {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get" name="enquiry">
+	I’m Interested in this Program
+
+</form>
+    <form id="registrationForm" onsubmit="return validateForm()">
+        
+    </form> <label>First Name: <input type="text"></label>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname">
+        
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required pattern="[0-9]{10}" placeholder="Enter a 10-digit phone number">
+        
+        <label for="qualification">Educational Qualification:</label>
+        <input type="text" id="qualification" required>
+        <label for="passingYear">Year of Passed Out:</label>
+        <input type="number" id="passingYear" required min="2019" max= "2026">
+        
+        <label>Age: <input type="text" size="3"> </label>
+        
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" required>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required>Male
+        <input type="radio" name="gender" value="female" required>Female
+
+        
+        
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="sports">Sports
+        <input type="checkbox" name="interests" value="music">Music
+        <input type="checkbox" name="interests" value="reading">
+
+        <label for="country">Country:</label>
+        <select id="country" required>
+            <option value="">Select a country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="uk">INDIA</option>
+            
+            <!-- Add more countries as needed -->
+        </select>
+         <label for="Select City">City:</label>
+        <select id="city" required>
+            <option value="">Select a city</option>
+            <option value="Salem">Salem</option></option>
+            <option value="Chennai">Chennai</option></option>
+            <option value="Mayiladuthurai">Mayiladuthurai</option>
+            <option value="Coimbatore">Coimbatore</option>
+        
+
+        <button type="submit">Register</button>
+        <label><input type="checkbox" checked>: I Agree</label>
+        </form>
+
+
+    <script>
+        function validateForm() {
+            // Basic validation for password match
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+            if (password !== confirmPassword) {
+                alert("Passwords do not match!");
+                return false;
+            }
+
+            // You can add more custom validations here based on your requirements.
+
+            return true; // If all validations pass, the form will be submitted.
+        }
+<label><input type="checkbox" checked>: I Agree</label> 
+    </script>
+</body>
+</html>
