@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUTOR MEJAVA LEARNING PLATFORMS</title>
+</head>
+<body>
+    <h1><B>TUTOR ME JAVA LEARNING PLATFORM </B></h1>
+    <P>In this website u can gather information about different learning JAVA website from begginer level.
+        This website can be applicable for all new learner. <br>
+        <h2>What is JAVA?</h2>
+        <p>Java is a widely-used programming language for coding web applications. It has been a popular choice among developers for over two decades, with millions of Java applications in use today. Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.
+
+            <br>It’s used by businesses worldwide to power mobile apps, software, and websites — almost 92.8% of all websites.</p>
+        <h2>TOP JAVA WEBSITES</h2>
+        <ol><li>Guru99</li>
+        <li>Javapoint</li>
+    <li>GUVI</li>
+<li>W3school</li>
+<h3>Guru99</h3>
+<p>Javapoint is an online education company that creates and delivers courses, career and skill paths focusing on programming languages. It is a platform that is ideal for beginners and someone who is looking to learn a new skill or gain experience for a new career. <br>The basic membership is free and features a variety of courses that students can take without any financial obligation</p>
+  To Know more about us <a href="https://www.javatpoint.com/java-tutorial"><b>visit us</b></a>  
+   <h3>Javapoint</h3>
+   <P>Guru99 is a global online learning platform that offers anyone, anywhere, access to online courses and degrees from leading universities and companies.</P>
+   To know more about us <a href="https://www.guru99.com/java-platform.html"><b>visit us</b></a>
+   <H3>Guru99</H3>
+   <p>GUVI is an online learning community with thousands of classes for creative and curious people, on topics including illustration, design, photography, video, freelancing, and more. On Skillshare, members come together to find inspiration and take the next step in their creative journey.</p>
+   To know more about us <a href="https://www.guvi.in/courses/programming/java-programming/"> visit us</a>
+<h3>W3SCHOOLS</h3>
+<p>W3Schools is a school for web developers, covering all the aspects of web development.W3Schools was created in 1998, and derives its name from the World Wide Web (WWW) but is not affiliated with the W3C class. <br><br>
+To know more about us <a href="https://www.w3schools.com/java/java_intro.asp">visit us</a>
+</p>
+</P>
+</body>
+</html>
